@@ -1,0 +1,5 @@
+
+#For converting scp files to text files 
+
+. path.sh
+copy-vector scp:vad/vad_train.1.scp ark,t:vad_1.txt

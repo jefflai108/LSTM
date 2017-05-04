@@ -1,0 +1,3 @@
+run matlab command 
+
+echo "filename.m" | matlab -nondisplay

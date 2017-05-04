@@ -1,0 +1,10 @@
+qlogin -l gpu=1 -now no
+
+cd /export/b14/jlai/spoken/
+
+source /home/nchen/env.sh
+source jeff/bin/activate
+ 
+#from naxien 
+
+THEANO_FLAGS=device=gpu,floatX=float32 python my_keras_script.py

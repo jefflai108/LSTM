@@ -1,0 +1,4 @@
+#convert mfcc scp files to text files 
+
+. path.sh
+copy-feats scp:mfcc/raw_mfcc_train.1.scp ark,t:mfcc_1.txt
